@@ -4,4 +4,4 @@ Information about processes, foreign hosts IPv4 addresses, country of connection
 
 The application was written in Python and is still under development. For now, only the CMD version is available, however, a GUI version will be available soon.
 
-The application accepts a command line argument of `u` in order to update database file regularly using a batch file. Providing `u` updates the database file and quits the program.
+The application accepts a command line argument `u` in order to update database file regularly using a batch file. Providing `u` updates the database file and quits the program.
