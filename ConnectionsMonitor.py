@@ -744,9 +744,9 @@ def main():
         local = load_local().astype(str)
 
     else:
-        print("{}{}[ i ] The database file has been created.{}".format(color.BOLD, color.CYAN, color.END))
+        print("{}{}[ i ] Database file has been created.{}".format(color.BOLD, color.CYAN, color.END))
         collect_data()
-        print("{}{}[ i ] Data were collected successfully.\n[ i ] The program will shut down. To proceed, please run it again.{}".format(color.BOLD, color.CYAN, color.END))
+        print("{}{}[ i ] Data were collected successfully.\n[ i ] The program will shut down. Please run it again.{}".format(color.BOLD, color.CYAN, color.END))
         time.sleep(5)
         sys.exit()
 
